@@ -14,5 +14,5 @@ This tool is used to simulate keyboard from a distant device.
 &nbsp;&nbsp;&nbsp;&nbsp;http://xxx.xxx.xxx.xxx:8090/api.pw?page=SoftwareMgt&action=execute&command=notepad ==> this start notepad
 
 # HTMLRemote - Power Management
-&nbsp;&nbsp;&nbsp;&nbsp;http://xxx.xxx.xxx.xxx:8090/api.pw?page=PowerMgt&action=STOP ==> Stop computer
+&nbsp;&nbsp;&nbsp;&nbsp;http://xxx.xxx.xxx.xxx:8090/api.pw?page=PowerMgt&action=STOP ==> Stop computer</br>
 &nbsp;&nbsp;&nbsp;&nbsp;http://xxx.xxx.xxx.xxx:8090/api.pw?page=PowerMgt&action=RESTART ==> Restart computer

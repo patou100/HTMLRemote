@@ -60,7 +60,7 @@ public class PowerMgt extends Action {
                 }           
             }
             
-            //Runtime.getRuntime().exec(shutdownCommand);
+            Runtime.getRuntime().exec(shutdownCommand);
             
             this.writeOutPut("OK");
 

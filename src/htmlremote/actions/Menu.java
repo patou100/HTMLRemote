@@ -53,7 +53,7 @@ public class Menu extends Action {
         
         _body = "<ul>";
         _body = _body + "<li><a href=\".\\action.pw?page=Accueil&action=accueil\">Accueil</a></li>\n";
-        _body = _body + "<li><a href=\".\\action.pw?page=ConfigKeys&action=display\">Config Keys</a></li>\n";
+        _body = _body + "<li><a href=\".\\action.pw?page=SoftwareMgt&action=display\">Config Keys</a></li>\n";
         if(HttpSocketSessionManager.getInstance().getSession(request.getSessionId()) != null && 
                 HttpSocketSessionManager.getInstance().getSession(request.getSessionId()).getProfileLevel() >= 3){
             _body = _body + javahttpserver.actions.Menu.buildAminMenu();

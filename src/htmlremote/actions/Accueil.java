@@ -3,10 +3,12 @@ package htmlremote.actions;
 
 
 import javahttpserver.Action;
+import javahttpserver.Constants;
 import javahttpserver.HttpSocketAnswer;
 import javahttpserver.HttpSocketRequest;
 import javahttpserver.HttpSocketSessionManager;
 import javahttpserver.JavaHttpServerLogger;
+import javahttpserver.ServerProperties;
 
 
 /*
@@ -62,7 +64,7 @@ public class Accueil extends Action {
      */    
     private void buildPage(HttpSocketRequest request){
         /* Title */
-        this.writeOutPut("<h1>HTMLRemote - Action launcher for HTMLRemote</h1>");
+        this.writeOutPut("<h1>" + ServerProperties.getInstance().getProperty(Constants.SERVER_TITLE) + "</h1>");
         
         /* Menu */
         this.writeOutPut(Menu.buildMenu(request));

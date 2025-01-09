@@ -93,6 +93,7 @@
         </zip>
         <copy file="${store.pgm}/server.properties" todir="${store.dir}" />
         <copy file="${store.pgm}/application.properties" todir="${store.dir}" />
+        <copy file="${store.pgm}/soft_mapping.conf" todir="${store.dir}" />
         <copy todir="${store.dir}/html">  
                 <fileset dir="${store.html}" includes="**"/>  
         </copy>
